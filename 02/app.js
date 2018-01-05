@@ -1,3 +1,4 @@
+const patcher = require('./patcher')
 const Logger = require('./logger');
 
-Logger.log('Hey')
+Logger.customMessage()
